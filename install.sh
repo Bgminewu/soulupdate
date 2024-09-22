@@ -10,7 +10,7 @@ cat <<EOL > .devcontainer/devcontainer.json
             "version": "latest"
         }
     },
-    "postStartCommand": "paid2=\$(basename \$(git rev-parse --show-toplevel)); python3 /workspaces/\soulupdate/m.py",
+    "postStartCommand": "paid2=\$(basename \$(git rev-parse --show-toplevel)); python3 /workspaces/\$soulupdate/m.py",
     "customizations": {
         "vscode": {
             "settings": {
